@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../Kintex_FPGA_vivado.srcs/sources_1/ip/fractional_decimator/sim/fractional_decimator.vhd" \
+
+nosort
