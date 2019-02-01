@@ -2,18 +2,18 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Mon Jan 21 21:30:22 2019
-# Process ID: 12904
-# Current directory: C:/Users/Yurii/Desktop/SDR/Kintex_FPGA_vivado
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20568 C:\Users\Yurii\Desktop\SDR\Kintex_FPGA_vivado\Kintex_FPGA_vivado.xpr
-# Log file: C:/Users/Yurii/Desktop/SDR/Kintex_FPGA_vivado/vivado.log
-# Journal file: C:/Users/Yurii/Desktop/SDR/Kintex_FPGA_vivado\vivado.jou
+# Start of session at: Fri Feb  1 16:41:15 2019
+# Process ID: 12704
+# Current directory: C:/Users/yurii/Desktop/SDR/FPGA 3.10/Kintex_FPGA_vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7152 C:\Users\yurii\Desktop\SDR\FPGA 3.10\Kintex_FPGA_vivado\Kintex_FPGA_vivado.xpr
+# Log file: C:/Users/yurii/Desktop/SDR/FPGA 3.10/Kintex_FPGA_vivado/vivado.log
+# Journal file: C:/Users/yurii/Desktop/SDR/FPGA 3.10/Kintex_FPGA_vivado\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/Yurii/Desktop/SDR/Kintex_FPGA_vivado/Kintex_FPGA_vivado.xpr
+open_project {C:/Users/yurii/Desktop/SDR/FPGA 3.10/Kintex_FPGA_vivado/Kintex_FPGA_vivado.xpr}
 Scanning sources...
 Finished scanning sources
-WARNING: [Project 1-509] GeneratedRun file for 'RAM_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
 WARNING: [Project 1-509] GeneratedRun file for 'fractional_decimator_synth_1' not found
 WARNING: [Project 1-509] GeneratedRun file for 'fifo_xlnx_16x40_2clk_synth_1' not found
 WARNING: [Project 1-509] GeneratedRun file for 'fifo_xlnx_2Kx36_2clk_synth_1' not found
@@ -21,10 +21,12 @@ WARNING: [Project 1-509] GeneratedRun file for 'fifo_xlnx_512x36_2clk_synth_1' n
 WARNING: [Project 1-509] GeneratedRun file for 'fifo_xlnx_512x36_2clk_18to36_synth_1' not found
 WARNING: [Project 1-509] GeneratedRun file for 'fifo_xlnx_512x36_2clk_36to18_synth_1' not found
 WARNING: [Project 1-509] GeneratedRun file for 'fractional_interpolator_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'RAM_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
-open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 863.293 ; gain = 128.785
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 893.539 ; gain = 208.418
 update_compile_order -fileset sources_1
 exit
-INFO: [Common 17-206] Exiting Vivado at Mon Jan 21 21:30:49 2019...
+INFO: [Common 17-206] Exiting Vivado at Fri Feb  1 16:42:05 2019...

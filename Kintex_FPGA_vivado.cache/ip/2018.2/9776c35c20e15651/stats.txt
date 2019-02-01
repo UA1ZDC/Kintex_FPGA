@@ -1,4 +1,0 @@
-NumberHits:0
-Timestamp: Tue Oct 02 12:28:13 UTC 2018
-VLNV: xilinx.com:ip:fir_compiler:7.2
-SynthRuntime: 36

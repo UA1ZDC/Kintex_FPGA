@@ -1,9 +1,9 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-// Date        : Tue Oct  2 15:30:20 2018
+// Date        : Fri Feb  1 16:12:56 2019
 // Host        : PC411-00 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub {C:/Users/Yurii/Desktop/SDR/FPGA
+// Command     : write_verilog -force -mode synth_stub {C:/Users/yurii/Desktop/SDR/FPGA
 //               3.10/Kintex_FPGA_vivado/Kintex_FPGA_vivado.srcs/sources_1/ip/RAM/RAM_stub.v}
 // Design      : RAM
 // Purpose     : Stub declaration of top-level module interface
