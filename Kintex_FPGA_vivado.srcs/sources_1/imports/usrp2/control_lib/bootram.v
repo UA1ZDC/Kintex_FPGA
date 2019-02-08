@@ -45,10 +45,10 @@ module bootram
    
    assign if_data = delayed_if_bank[1] ?
 						  (delayed_if_bank[0] ?  DOA3 : DOA2)
-						: (delayed_if_bank[0] ?  DOA1 : DOA0);
+						: (delayed_if_bank[0] ?  DOA1 : DOA0);*/
    
    
-   assign dwb_dat_o = dwb_adr_i[13] ?
+/*   assign dwb_dat_o = dwb_adr_i[13] ?
                     (dwb_adr_i[12] ?  DOB3 : DOB2)
 						: (dwb_adr_i[12] ?  DOB1 : DOB0);*/
 
@@ -63,21 +63,21 @@ module bootram
    assign ENB2 = dwb_stb_i & (dwb_adr_i[13:12] == 3'b10);
    assign ENB3 = dwb_stb_i & (dwb_adr_i[13:12] == 3'b11);*/
 
-   assign WEB = {4{dwb_we_i}} & dwb_sel_i;  
+   assign WEB = {4{dwb_we_i}} & dwb_sel_i;     
    
-  RAM RAM0 (
+   RAM RAM0 (
      .clka(clk),    // input wire clka
      .ena(1'b1),      // input wire ena
      .wea(4'b0000),      // input wire [3 : 0] wea
      .addra(if_adr[13:2]),  // input wire [11 : 0] addra
-     .dina(36'hfffffffff),    // input wire [35 : 0] dina
-     .douta(if_data[31:0]),  // output wire [35 : 0] douta
+     .dina(32'hffffffff),    // input wire [31 : 0] dina
+     .douta(if_data[31:0]),  // output wire [31 : 0] douta
      .clkb(clk),    // input wire clkb
      .enb(dwb_stb_i),      // input wire enb
      .web(WEB),      // input wire [3 : 0] web
      .addrb(dwb_adr_i[13:2]),  // input wire [11 : 0] addrb
-     .dinb(dwb_dat_i[31:0]),    // input wire [35 : 0] dinb
-     .doutb(dwb_dat_o[31:0])  // output wire [35 : 0] doutb
+     .dinb(dwb_dat_i[31:0]),    // input wire [31 : 0] dinb
+     .doutb(dwb_dat_o[31:0])  // output wire [31 : 0] doutb
    );	
 		
 /*		BRAM_TDP_MACRO #(

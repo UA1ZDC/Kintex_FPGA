@@ -18,13 +18,12 @@
 //The following module effects the IO of the DDC chain.
 //By default, this entire module is a simple pass-through.
 
-//`define RX_DSP0_MODULE rx_dsp0_custom
+`define RX_DSP0_MODULE rx_dsp0_custom
 
 module dsp_rx_glue
 #(
     //the dsp unit number: 0, 1, 2...
     parameter DSPNO = 0,
-
     //frontend bus width
     parameter WIDTH = 24
 )

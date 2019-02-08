@@ -122,23 +122,12 @@ module u2plus
 	     
    // FPGA-specific pins connections
    IBUFGDS clk_fpga_pin (.O(clk_fpga),.I(CLK_FPGA_P),.IB(CLK_FPGA_N));
-   defparam 	clk_fpga_pin.IOSTANDARD = "LVDS";
+   defparam 	clk_fpga_pin.IOSTANDARD = "LVDS";   
 
    reg [5:0] 	clock_ready_d;	
    always @(posedge clk_fpga)
      clock_ready_d[5:0] <= {clock_ready_d[4:0],clock_ready};
    wire 	dcm_rst = ~&clock_ready_d & |clock_ready_d;
-
-	reg phy_ready;
-	initial phy_ready = 1'b0;
-	
-	always @(negedge PHY_RESETn)
-		phy_ready = 1'b1;
-	
-	reg [5:0] 	phy_ready_d;	
-   always @(posedge clk_fpga)
-     phy_ready_d[5:0] <= {phy_ready_d[4:0],phy_ready};
-   wire 	dcm2_rst = ~&phy_ready_d & |phy_ready_d;
 
 // ADC A is inverted on the schematic to facilitate a clean layout
 //  We account for that here by inverting it
@@ -183,9 +172,9 @@ module u2plus
     .DI                  (16'h0),
     .DWE                 (1'b0),
     // Other control and status signals
-	 .LOCKED              (LOCKED_125),
+	.LOCKED              (LOCKED_125),
     .PWRDWN              (1'b0),
-    .RST                 (dcm2_rst));
+    .RST                 (dcm_rst));
 	
 	BUFG phyclk_fb (.O(CLK_TO_MAC_fbin), .I(CLK_TO_MAC_fbout));
 	BUFG ramclk (.O(CLK_TO_RAM_buf), .I(CLK_TO_RAM));	
@@ -230,7 +219,7 @@ module u2plus
     .CLKIN1              (clk_fpga),
     .CLKIN2              (1'b0),
      // Tied to always select the primary input clock
-	 .CLKINSEL            (1'b1),
+	.CLKINSEL            (1'b1),
     // Ports for dynamic reconfiguration
     .DADDR               (7'h0),
     .DCLK                (1'b0),
