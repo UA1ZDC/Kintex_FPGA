@@ -1,6 +1,0 @@
-verilog xil_defaultlib  \
-"../../../../Kintex_FPGA_vivado.gen/sources_1/ip/fifo_xlnx_16x40_2clk/sim/fifo_xlnx_16x40_2clk.v" \
-
-verilog xil_defaultlib "glbl.v"
-
-nosort

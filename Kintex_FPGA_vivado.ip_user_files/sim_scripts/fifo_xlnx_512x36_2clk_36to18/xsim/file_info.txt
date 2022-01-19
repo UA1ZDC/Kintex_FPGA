@@ -1,2 +1,0 @@
-fifo_xlnx_512x36_2clk_36to18.v,verilog,xil_defaultlib,../../../../Kintex_FPGA_vivado.gen/sources_1/ip/fifo_xlnx_512x36_2clk_36to18/sim/fifo_xlnx_512x36_2clk_36to18.v,
-glbl.v,Verilog,xil_defaultlib,glbl.v

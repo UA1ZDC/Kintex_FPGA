@@ -1,10 +1,7 @@
 onbreak {quit -f}
 onerror {quit -f}
 
-vsim -lib xil_defaultlib RAM_opt
-
-set NumericStdNoWarnings 1
-set StdArithNoWarnings 1
+vsim -t 1ps -lib xil_defaultlib RAM_opt
 
 do {wave.do}
 
