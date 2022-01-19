@@ -1,7 +1,10 @@
 onbreak {quit -f}
 onerror {quit -f}
 
-vsim -t 1ps -lib xil_defaultlib fractional_decimator_opt
+vsim -lib xil_defaultlib fractional_decimator_opt
+
+set NumericStdNoWarnings 1
+set StdArithNoWarnings 1
 
 do {wave.do}
 

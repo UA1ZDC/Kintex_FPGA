@@ -1,3 +1,255 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Jan 19 22:09:45 2022
+| Host         : PC411-00 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fractional_interpolator'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of fractional_interpolator (xilinx.com:ip:fir_compiler:7.2) from (Rev. 11) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Jan 19 22:09:44 2022
+| Host         : PC411-00 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fractional_decimator'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of fractional_decimator (xilinx.com:ip:fir_compiler:7.2) from (Rev. 11) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Jan 19 22:09:42 2022
+| Host         : PC411-00 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fifo_xlnx_64x36_2clk'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of fifo_xlnx_64x36_2clk (xilinx.com:ip:fifo_generator:13.2) from (Rev. 2) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Jan 19 22:09:42 2022
+| Host         : PC411-00 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fifo_xlnx_512x36_2clk_prog_full'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of fifo_xlnx_512x36_2clk_prog_full (xilinx.com:ip:fifo_generator:13.2) from (Rev. 2) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Jan 19 22:09:42 2022
+| Host         : PC411-00 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fifo_xlnx_512x36_2clk_36to18'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of fifo_xlnx_512x36_2clk_36to18 (xilinx.com:ip:fifo_generator:13.2) from (Rev. 2) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Jan 19 22:09:41 2022
+| Host         : PC411-00 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fifo_xlnx_512x36_2clk_18to36'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of fifo_xlnx_512x36_2clk_18to36 (xilinx.com:ip:fifo_generator:13.2) from (Rev. 2) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Jan 19 22:09:41 2022
+| Host         : PC411-00 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fifo_xlnx_512x36_2clk'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of fifo_xlnx_512x36_2clk (xilinx.com:ip:fifo_generator:13.2) from (Rev. 2) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Jan 19 22:09:40 2022
+| Host         : PC411-00 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fifo_xlnx_32x36_2clk'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of fifo_xlnx_32x36_2clk (xilinx.com:ip:fifo_generator:13.2) from (Rev. 2) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Jan 19 22:09:40 2022
+| Host         : PC411-00 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fifo_xlnx_2Kx36_2clk'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of fifo_xlnx_2Kx36_2clk (xilinx.com:ip:fifo_generator:13.2) from (Rev. 2) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Jan 19 22:09:39 2022
+| Host         : PC411-00 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fifo_xlnx_16x40_2clk'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of fifo_xlnx_16x40_2clk (xilinx.com:ip:fifo_generator:13.2) from (Rev. 2) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Jan 19 22:09:39 2022
+| Host         : PC411-00 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fifo_xlnx_16x19_2clk'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of fifo_xlnx_16x19_2clk (xilinx.com:ip:fifo_generator:13.2) from (Rev. 2) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Jan 19 22:09:38 2022
+| Host         : PC411-00 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tfbg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'RAM'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of RAM (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 1) to (Rev. 4)
+
+
+
+
+
+
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018

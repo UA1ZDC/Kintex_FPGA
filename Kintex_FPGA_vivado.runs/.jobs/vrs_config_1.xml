@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="fifo_xlnx_16x19_2clk_synth_1" LaunchDir="D:/GitHub/Kintex_FPGA/Kintex_FPGA_vivado.runs/fifo_xlnx_16x19_2clk_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fifo_xlnx_64x36_2clk_synth_1" LaunchDir="D:/GitHub/Kintex_FPGA/Kintex_FPGA_vivado.runs/fifo_xlnx_64x36_2clk_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="RAM_synth_1" LaunchDir="D:/GitHub/Kintex_FPGA/Kintex_FPGA_vivado.runs/RAM_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fifo_xlnx_2Kx36_2clk_synth_1" LaunchDir="D:/GitHub/Kintex_FPGA/Kintex_FPGA_vivado.runs/fifo_xlnx_2Kx36_2clk_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fifo_xlnx_512x36_2clk_synth_1" LaunchDir="D:/GitHub/Kintex_FPGA/Kintex_FPGA_vivado.runs/fifo_xlnx_512x36_2clk_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fifo_xlnx_512x36_2clk_36to18_synth_1" LaunchDir="D:/GitHub/Kintex_FPGA/Kintex_FPGA_vivado.runs/fifo_xlnx_512x36_2clk_36to18_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fifo_xlnx_512x36_2clk_prog_full_synth_1" LaunchDir="D:/GitHub/Kintex_FPGA/Kintex_FPGA_vivado.runs/fifo_xlnx_512x36_2clk_prog_full_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fifo_xlnx_16x40_2clk_synth_1" LaunchDir="D:/GitHub/Kintex_FPGA/Kintex_FPGA_vivado.runs/fifo_xlnx_16x40_2clk_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fifo_xlnx_512x36_2clk_18to36_synth_1" LaunchDir="D:/GitHub/Kintex_FPGA/Kintex_FPGA_vivado.runs/fifo_xlnx_512x36_2clk_18to36_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fifo_xlnx_32x36_2clk_synth_1" LaunchDir="D:/GitHub/Kintex_FPGA/Kintex_FPGA_vivado.runs/fifo_xlnx_32x36_2clk_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/GitHub/Kintex_FPGA/Kintex_FPGA_vivado.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="fifo_xlnx_16x19_2clk_synth_1"/>
+		<Parent Id="fifo_xlnx_64x36_2clk_synth_1"/>
+		<Parent Id="RAM_synth_1"/>
+		<Parent Id="fifo_xlnx_2Kx36_2clk_synth_1"/>
+		<Parent Id="fifo_xlnx_512x36_2clk_synth_1"/>
+		<Parent Id="fifo_xlnx_512x36_2clk_36to18_synth_1"/>
+		<Parent Id="fifo_xlnx_512x36_2clk_prog_full_synth_1"/>
+		<Parent Id="fifo_xlnx_16x40_2clk_synth_1"/>
+		<Parent Id="fifo_xlnx_512x36_2clk_18to36_synth_1"/>
+		<Parent Id="fifo_xlnx_32x36_2clk_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
